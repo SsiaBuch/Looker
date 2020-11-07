@@ -15,7 +15,7 @@ export const HeaderContainer = () => {
                 <Route path='/' exact>
                     <Banner />
                 </Route>
-                <Route path='/Looker' exact>
+                <Route path='/Looker/' exact>
                     <Banner />
                 </Route>
 
