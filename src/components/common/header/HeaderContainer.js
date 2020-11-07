@@ -15,6 +15,9 @@ export const HeaderContainer = () => {
                 <Route path='/' exact>
                     <Banner />
                 </Route>
+                <Route path='/Looker' exact>
+                    <Banner />
+                </Route>
 
                 <Route path='/people' exact>
                     <Poster />
