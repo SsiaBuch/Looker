@@ -14,7 +14,7 @@ export class SectionPeopleContainer extends React.Component {
         // console.log(this.props.searchResult);
         return (
             <>
-                <Route path='/' exact>
+                <Route path='/Looker/' exact>
                     <PeopleSection name='/people'
                         //--Search
                         myInputValue={this.props.myInputValue}

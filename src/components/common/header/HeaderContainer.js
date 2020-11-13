@@ -12,9 +12,9 @@ export const HeaderContainer = () => {
             <div className='headerContainer'>
                 <Header/>
 
-                <Route path='/' exact>
+                {/* <Route path='/' exact>
                     <Banner />
-                </Route>
+                </Route> */}
                 <Route path='/Looker/' exact>
                     <Banner />
                 </Route>

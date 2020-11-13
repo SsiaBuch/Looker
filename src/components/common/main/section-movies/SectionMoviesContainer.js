@@ -43,7 +43,7 @@ export class SectionMoviesContainer extends React.Component {
         // console.log(this.state.flagDropDown);
         return (
             <>
-                <Route path='/' exact>
+                <Route path='/Looker/' exact>
                     <MoviesSection
                         togleFlag={this.props.togleFlag}
                         onToggleMoviesDetails={this.props.onToggleMoviesDetails}

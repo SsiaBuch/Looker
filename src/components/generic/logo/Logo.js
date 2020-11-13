@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 export const Logo = (props) =>
     <Link id='onTop'
-        to='/'
+        to='/Looker/'
         className={props.logoSize}
         style={{
             backgroundPosition: 'center',

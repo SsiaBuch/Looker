@@ -42,7 +42,7 @@ const MainBlock = (props) => {
                             <BsChevronDoubleUp className='movie-sort__icon' />
                         </div>
                     </div>
-                    <Route path='/' exact>
+                    <Route path='/Looker/' exact>
                         <Navigation
                             getRender={getMapRender(
                                 props.navList,

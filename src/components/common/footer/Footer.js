@@ -13,7 +13,7 @@ export const Footer = () => {
                 <div className='footer__container'>
                     <div className=''>
                         <span className='footer__text'>©  2020 Кинопортал </span>
-                        <NavLink to='/' exact onClick={ClickOnTopSmooth}>
+                        <NavLink to='/Looker/' exact onClick={ClickOnTopSmooth}>
                             <span className='footer__logo'>L[oo]ker</span>
                         </NavLink>
                     </div>
